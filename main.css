@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: auto;
+}
+
+.product {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    width:calc((100% - 60px)/4);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    padding: 10px;
+}
+
+.product img {
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.paras {
+    display: flex;
+    justify-content: space-between;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
